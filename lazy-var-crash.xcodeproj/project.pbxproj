@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		659D3A181C766F8E004FC91E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659D3A171C766F8E004FC91E /* AppDelegate.swift */; };
+		659D3A1A1C766F8E004FC91E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659D3A191C766F8E004FC91E /* ViewController.swift */; };
+		659D3A1D1C766F8E004FC91E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659D3A1B1C766F8E004FC91E /* Main.storyboard */; };
+		659D3A1F1C766F8E004FC91E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659D3A1E1C766F8E004FC91E /* Assets.xcassets */; };
+		659D3A221C766F8E004FC91E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659D3A201C766F8E004FC91E /* LaunchScreen.storyboard */; };
+		659D3A2D1C766F8E004FC91E /* lazy_var_crashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659D3A2C1C766F8E004FC91E /* lazy_var_crashTests.swift */; };
+		659D3A381C766F8E004FC91E /* lazy_var_crashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659D3A371C766F8E004FC91E /* lazy_var_crashUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		659D3A291C766F8E004FC91E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 659D3A0C1C766F8E004FC91E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 659D3A131C766F8E004FC91E;
+			remoteInfo = "lazy-var-crash";
+		};
+		659D3A341C766F8E004FC91E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 659D3A0C1C766F8E004FC91E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 659D3A131C766F8E004FC91E;
+			remoteInfo = "lazy-var-crash";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		659D3A141C766F8E004FC91E /* lazy-var-crash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lazy-var-crash.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		659D3A171C766F8E004FC91E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		659D3A191C766F8E004FC91E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		659D3A1C1C766F8E004FC91E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		659D3A1E1C766F8E004FC91E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		659D3A211C766F8E004FC91E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		659D3A231C766F8E004FC91E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		659D3A281C766F8E004FC91E /* lazy-var-crashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lazy-var-crashTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		659D3A2C1C766F8E004FC91E /* lazy_var_crashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lazy_var_crashTests.swift; sourceTree = "<group>"; };
+		659D3A2E1C766F8E004FC91E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		659D3A331C766F8E004FC91E /* lazy-var-crashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lazy-var-crashUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		659D3A371C766F8E004FC91E /* lazy_var_crashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lazy_var_crashUITests.swift; sourceTree = "<group>"; };
+		659D3A391C766F8E004FC91E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		659D3A111C766F8E004FC91E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659D3A251C766F8E004FC91E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659D3A301C766F8E004FC91E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		659D3A0B1C766F8E004FC91E = {
+			isa = PBXGroup;
+			children = (
+				659D3A161C766F8E004FC91E /* lazy-var-crash */,
+				659D3A2B1C766F8E004FC91E /* lazy-var-crashTests */,
+				659D3A361C766F8E004FC91E /* lazy-var-crashUITests */,
+				659D3A151C766F8E004FC91E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		659D3A151C766F8E004FC91E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				659D3A141C766F8E004FC91E /* lazy-var-crash.app */,
+				659D3A281C766F8E004FC91E /* lazy-var-crashTests.xctest */,
+				659D3A331C766F8E004FC91E /* lazy-var-crashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		659D3A161C766F8E004FC91E /* lazy-var-crash */ = {
+			isa = PBXGroup;
+			children = (
+				659D3A171C766F8E004FC91E /* AppDelegate.swift */,
+				659D3A191C766F8E004FC91E /* ViewController.swift */,
+				659D3A1B1C766F8E004FC91E /* Main.storyboard */,
+				659D3A1E1C766F8E004FC91E /* Assets.xcassets */,
+				659D3A201C766F8E004FC91E /* LaunchScreen.storyboard */,
+				659D3A231C766F8E004FC91E /* Info.plist */,
+			);
+			path = "lazy-var-crash";
+			sourceTree = "<group>";
+		};
+		659D3A2B1C766F8E004FC91E /* lazy-var-crashTests */ = {
+			isa = PBXGroup;
+			children = (
+				659D3A2C1C766F8E004FC91E /* lazy_var_crashTests.swift */,
+				659D3A2E1C766F8E004FC91E /* Info.plist */,
+			);
+			path = "lazy-var-crashTests";
+			sourceTree = "<group>";
+		};
+		659D3A361C766F8E004FC91E /* lazy-var-crashUITests */ = {
+			isa = PBXGroup;
+			children = (
+				659D3A371C766F8E004FC91E /* lazy_var_crashUITests.swift */,
+				659D3A391C766F8E004FC91E /* Info.plist */,
+			);
+			path = "lazy-var-crashUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		659D3A131C766F8E004FC91E /* lazy-var-crash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 659D3A3C1C766F8E004FC91E /* Build configuration list for PBXNativeTarget "lazy-var-crash" */;
+			buildPhases = (
+				659D3A101C766F8E004FC91E /* Sources */,
+				659D3A111C766F8E004FC91E /* Frameworks */,
+				659D3A121C766F8E004FC91E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lazy-var-crash";
+			productName = "lazy-var-crash";
+			productReference = 659D3A141C766F8E004FC91E /* lazy-var-crash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		659D3A271C766F8E004FC91E /* lazy-var-crashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 659D3A3F1C766F8E004FC91E /* Build configuration list for PBXNativeTarget "lazy-var-crashTests" */;
+			buildPhases = (
+				659D3A241C766F8E004FC91E /* Sources */,
+				659D3A251C766F8E004FC91E /* Frameworks */,
+				659D3A261C766F8E004FC91E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				659D3A2A1C766F8E004FC91E /* PBXTargetDependency */,
+			);
+			name = "lazy-var-crashTests";
+			productName = "lazy-var-crashTests";
+			productReference = 659D3A281C766F8E004FC91E /* lazy-var-crashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		659D3A321C766F8E004FC91E /* lazy-var-crashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 659D3A421C766F8E004FC91E /* Build configuration list for PBXNativeTarget "lazy-var-crashUITests" */;
+			buildPhases = (
+				659D3A2F1C766F8E004FC91E /* Sources */,
+				659D3A301C766F8E004FC91E /* Frameworks */,
+				659D3A311C766F8E004FC91E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				659D3A351C766F8E004FC91E /* PBXTargetDependency */,
+			);
+			name = "lazy-var-crashUITests";
+			productName = "lazy-var-crashUITests";
+			productReference = 659D3A331C766F8E004FC91E /* lazy-var-crashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		659D3A0C1C766F8E004FC91E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = dmiedema;
+				TargetAttributes = {
+					659D3A131C766F8E004FC91E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					659D3A271C766F8E004FC91E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 659D3A131C766F8E004FC91E;
+					};
+					659D3A321C766F8E004FC91E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 659D3A131C766F8E004FC91E;
+					};
+				};
+			};
+			buildConfigurationList = 659D3A0F1C766F8E004FC91E /* Build configuration list for PBXProject "lazy-var-crash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 659D3A0B1C766F8E004FC91E;
+			productRefGroup = 659D3A151C766F8E004FC91E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				659D3A131C766F8E004FC91E /* lazy-var-crash */,
+				659D3A271C766F8E004FC91E /* lazy-var-crashTests */,
+				659D3A321C766F8E004FC91E /* lazy-var-crashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		659D3A121C766F8E004FC91E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659D3A221C766F8E004FC91E /* LaunchScreen.storyboard in Resources */,
+				659D3A1F1C766F8E004FC91E /* Assets.xcassets in Resources */,
+				659D3A1D1C766F8E004FC91E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659D3A261C766F8E004FC91E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659D3A311C766F8E004FC91E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		659D3A101C766F8E004FC91E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659D3A1A1C766F8E004FC91E /* ViewController.swift in Sources */,
+				659D3A181C766F8E004FC91E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659D3A241C766F8E004FC91E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659D3A2D1C766F8E004FC91E /* lazy_var_crashTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659D3A2F1C766F8E004FC91E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659D3A381C766F8E004FC91E /* lazy_var_crashUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		659D3A2A1C766F8E004FC91E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 659D3A131C766F8E004FC91E /* lazy-var-crash */;
+			targetProxy = 659D3A291C766F8E004FC91E /* PBXContainerItemProxy */;
+		};
+		659D3A351C766F8E004FC91E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 659D3A131C766F8E004FC91E /* lazy-var-crash */;
+			targetProxy = 659D3A341C766F8E004FC91E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		659D3A1B1C766F8E004FC91E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				659D3A1C1C766F8E004FC91E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		659D3A201C766F8E004FC91E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				659D3A211C766F8E004FC91E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		659D3A3A1C766F8E004FC91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		659D3A3B1C766F8E004FC91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		659D3A3D1C766F8E004FC91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "lazy-var-crash/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmiedema.lazy-var-crash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		659D3A3E1C766F8E004FC91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "lazy-var-crash/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmiedema.lazy-var-crash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		659D3A401C766F8E004FC91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "lazy-var-crashTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmiedema.lazy-var-crashTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lazy-var-crash.app/lazy-var-crash";
+			};
+			name = Debug;
+		};
+		659D3A411C766F8E004FC91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "lazy-var-crashTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmiedema.lazy-var-crashTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lazy-var-crash.app/lazy-var-crash";
+			};
+			name = Release;
+		};
+		659D3A431C766F8E004FC91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "lazy-var-crashUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmiedema.lazy-var-crashUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "lazy-var-crash";
+			};
+			name = Debug;
+		};
+		659D3A441C766F8E004FC91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "lazy-var-crashUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmiedema.lazy-var-crashUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "lazy-var-crash";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		659D3A0F1C766F8E004FC91E /* Build configuration list for PBXProject "lazy-var-crash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659D3A3A1C766F8E004FC91E /* Debug */,
+				659D3A3B1C766F8E004FC91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		659D3A3C1C766F8E004FC91E /* Build configuration list for PBXNativeTarget "lazy-var-crash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659D3A3D1C766F8E004FC91E /* Debug */,
+				659D3A3E1C766F8E004FC91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		659D3A3F1C766F8E004FC91E /* Build configuration list for PBXNativeTarget "lazy-var-crashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659D3A401C766F8E004FC91E /* Debug */,
+				659D3A411C766F8E004FC91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		659D3A421C766F8E004FC91E /* Build configuration list for PBXNativeTarget "lazy-var-crashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659D3A431C766F8E004FC91E /* Debug */,
+				659D3A441C766F8E004FC91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 659D3A0C1C766F8E004FC91E /* Project object */;
+}
